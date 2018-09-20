@@ -1,0 +1,43 @@
+~~~
+<navigator url="/pages/index/index" redirect="false" hover-class="navigator-hover" open-type="navigate|redirect|switchTab">
+    <view>跳</view>
+</navigator>
+~~~
+
+### 三步骤:
+
+> 1. `app.js` `app.wxml`  `app.wxss`
+> 2. 然后新建你需要的部分：`index.js`  `index.wxml`   `index.wxss`  
+> 3. `app.json` 是全局，每新建一个，添加一次路径
+
+~~~
+{
+  "pages":[
+    "pages/user/user",
+    "pages/welcome/welcome",
+    "pages/index/index"
+  ],
+  
+  //打window自动出来
+  "window": {
+    "navigationBarBackgroundColor": "#7fecad",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "乐园",
+    "backgroundColor": "#f9906f"
+  }
+}
+~~~
+
+### 快捷出代码键
+
+~~~
+打wa- 后面会出现
+~~~
+
+### 引用
+
+~~~
+<import src="/pages/template/banner.wxml"></import>
+<template is="banner"></template>
+~~~
+

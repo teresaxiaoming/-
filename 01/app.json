@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/user/user",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#7fecad",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "乐园",
+    "backgroundColor": "#f9906f"
+  }
+}

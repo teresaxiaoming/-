@@ -1,0 +1,5 @@
+<view class="welcome">
+    <image src="/images/1.png" alt=""></image>
+    <text>hello 小程序</text>
+    <button bindtap="handleClick">点击吧！孩砸！</button>
+</view>
